@@ -189,7 +189,8 @@ public class OpenAiAudioApi {
 			@JsonProperty("mp3") MP3("mp3"),
 			@JsonProperty("opus") OPUS("opus"),
 			@JsonProperty("aac") AAC("aac"),
-			@JsonProperty("flac") FLAC("flac");
+			@JsonProperty("flac") FLAC("flac"),
+			@JsonProperty("wav") WAV("wav");
 			// @formatter:on
 
 			public final String value;
